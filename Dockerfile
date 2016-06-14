@@ -1,7 +1,7 @@
 # Dockerfile für Joomla 
-# acdaic4v 07.08.2015
+# acdaic4v 14.06.2015
 # Basiert auf grundlegende Perl- Images
-FROM acdaic4v/ubuntu-perl-mysql:v20151208
+FROM acdaic4v/ubuntu-perl-mysql:v20160614
 MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
 # Pakete für die Erstellung von
