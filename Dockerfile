@@ -17,7 +17,8 @@ RUN cpanm GD \
 &&  cpanm Chart::Lines \
 &&  cpanm CMS::Joomla \
 &&  cpanm Math::Financial \
-&&  cpanm Spreadsheet::WriteExcel 
+&&  cpanm Spreadsheet::WriteExcel \
+&& cpanm YAML::XS
 
 # CPAN- Verzeichnis wieder aufräumen
 RUN rm -rf .cpanm
